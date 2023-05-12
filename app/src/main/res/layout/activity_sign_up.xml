@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".authentication.SignUpActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIGN UP"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginHorizontal="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/blue"
+                android:layout_marginHorizontal="20dp"/>
+
+            <ImageView
+                android:id="@+id/ivProfile"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                />
+<!--            android:background="@drawable/iv_profile"-->
+            <TextView
+                android:id="@+id/tvUpload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:text="Click here to upload...\n(optional)"/>
+
+            <EditText
+                android:id="@+id/etFullname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Fullname"
+                android:background="@drawable/edittext_border"
+                android:inputType="text"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="20dp"
+                android:drawableTint="@color/blue"
+                android:layout_marginHorizontal="20dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/avatar_24"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What are you? "
+                android:layout_gravity="start"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/blue"
+                android:layout_marginHorizontal="20dp"/>
+
+
+
+                <RadioGroup
+                    android:id="@+id/rgType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginHorizontal="20dp"
+                    android:orientation="vertical">
+
+
+                        <RadioButton
+                            android:id="@+id/rbArtist"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Artist"/>
+
+
+                        <RadioButton
+                            android:id="@+id/rbStudent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Student"
+                            />
+
+
+
+                        <RadioButton
+                            android:id="@+id/rbResearcher"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Researcher"/>
+
+
+                        <RadioButton
+                            android:id="@+id/rbInnovator"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Innovator" />
+
+
+                        <RadioButton
+                            android:id="@+id/rbOthers"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Others"/>
+
+                </RadioGroup>
+
+            <EditText
+                android:id="@+id/etSpecific"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Please specify..."
+                android:visibility="gone"
+                android:background="@drawable/edittext_border"
+                android:inputType="text"
+                android:paddingLeft="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:drawablePadding="10dp" />
+
+
+
+
+
+            <EditText
+                android:id="@+id/etAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Complete Address"
+                android:background="@drawable/edittext_border"
+                android:inputType="text"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="20dp"
+                android:drawableTint="@color/blue"
+                android:layout_marginHorizontal="20dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/location"/>
+
+            <EditText
+                android:id="@+id/etNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile Number"
+                android:background="@drawable/edittext_border"
+                android:inputType="number"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="20dp"
+                android:drawableTint="@color/blue"
+                android:layout_marginHorizontal="20dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/number"/>
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:background="@drawable/edittext_border"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="20dp"
+                android:drawableTint="@color/blue"
+                android:layout_marginHorizontal="20dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/email_24"/>
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:drawablePadding="10dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittext_border"
+                android:paddingLeft="20dp"
+                android:drawableLeft="@drawable/password_24"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Sign Up"
+                android:layout_marginTop="20dp"
+                app:cornerRadius="50dp"
+                android:layout_marginHorizontal="20dp"/>
+
+            <TextView
+                android:id="@+id/tvLogIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="@color/blue"
+                android:text="Already have an account? Log In here"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

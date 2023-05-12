@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home_24"/>
+
+    <item
+        android:id="@+id/post"
+        android:title="Post"
+        android:icon="@drawable/post_24"/>
+
+    <item
+        android:id="@+id/rewards"
+        android:title="Rewards"
+        android:icon="@drawable/ic_baseline_stars_24"/>
+
+
+    <!--    <item-->
+<!--        android:id="@+id/menu_tasks"-->
+<!--        android:layout_alignParentLeft="false"-->
+<!--        android:icon="@drawable/home_24"-->
+<!--        android:title="tasks"-->
+<!--        app:showAsAction="always" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/menu_habit"-->
+<!--        android:layout_alignParentLeft="false"-->
+<!--        android:icon="@drawable/post_24"-->
+<!--        android:title="habits"-->
+<!--        app:showAsAction="always" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/menu_add"-->
+<!--        android:layout_alignParentLeft="false"-->
+<!--        android:icon="@drawable/profile"-->
+<!--        android:title="add"-->
+<!--        app:showAsAction="always" />-->
+
+
+
+<!--    <item-->
+<!--        android:id="@+id/menu_nav"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:icon="@drawable/ic_menu"-->
+<!--        android:title="menu"-->
+<!--        app:showAsAction="always" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/menu_home"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:icon="@drawable/ic_home"-->
+<!--        android:title="home"-->
+<!--        app:showAsAction="always" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/menu_timer"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:icon="@drawable/ic_timer"-->
+<!--        android:title="timer"-->
+<!--        app:showAsAction="always" />-->
+
+</menu>

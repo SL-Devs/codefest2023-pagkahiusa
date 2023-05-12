@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".profile.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/profile_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PROFILE"
+                android:layout_gravity="left"
+                android:textSize="30dp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginHorizontal="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fullname"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="left"
+                android:textSize="20dp"
+                android:textColor="@color/blue"
+                android:layout_marginHorizontal="20dp"/>
+            <TextView
+                android:id="@+id/tvFullname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jason Llanes"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="left"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Complete Address"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="left"
+                android:textSize="20dp"
+                android:textColor="@color/blue"
+                android:layout_marginHorizontal="20dp"/>
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nazareth, Cagayan de Oro City"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="left"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile Number"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="left"
+                android:textSize="20dp"
+                android:textColor="@color/blue"
+                android:layout_marginHorizontal="20dp"/>
+            <TextView
+                android:id="@+id/tvNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="09166873915"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="left"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAided"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Aided"
+                android:layout_marginTop="20dp"
+                app:cornerRadius="50dp"
+                android:layout_marginHorizontal="20dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnShowPoints"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Show Points"
+                app:cornerRadius="50dp"
+                android:layout_marginHorizontal="20dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLogOut"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Log Out"
+                app:cornerRadius="50dp"
+                android:layout_marginHorizontal="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

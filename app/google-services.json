@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "185982834183",
+    "project_id": "be-one-dd8fd",
+    "storage_bucket": "be-one-dd8fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185982834183:android:8e4007cff3d6fa5fac7ca2",
+        "android_client_info": {
+          "package_name": "com.example.codefest_cdo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185982834183-um153f7nm7u21uqgu9su9jduqmej060b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZFJ2NTpOOhGtnjJuxxE0C5o01wZFE3MM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185982834183-um153f7nm7u21uqgu9su9jduqmej060b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
